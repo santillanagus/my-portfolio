@@ -147,3 +147,27 @@ video {
     width: 90px;
     transition: 0.25s ease;
 }
+
+/* Section Me */
+
+#me {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#me>p {
+    color: white;
+    width: 60vw;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    max-height: 192px;
+}
+
+.p-italic-bold {
+    font-style: italic;
+    font-weight: 700;
+}
