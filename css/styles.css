@@ -158,16 +158,65 @@ video {
     align-items: center;
 }
 
+#me>img {
+    border-radius: 50%;
+    width: 140px;
+    margin-bottom: 30px;
+    box-shadow: rgba(172, 172, 190, 0.438) 0px 7px 29px 0px;
+}
+
 #me>p {
     color: white;
     width: 60vw;
     text-align: center;
     font-size: 25px;
-    position: absolute;
     max-height: 192px;
 }
 
 .p-italic-bold {
     font-style: italic;
     font-weight: 700;
+}
+
+.download-cv-button {
+    margin-top: 30px;
+    width: 155px;
+    height: 50px;
+    border-radius: 28px;
+}
+
+.download-cv-button>a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+/** Formation **/
+
+#formation {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#formation>p {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#formation>ul {
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 40px;
 }
