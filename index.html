@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Portfolio - AES</title>
 </head>
 
@@ -33,13 +35,18 @@
                     <img src="img/projects-icon.png" alt="Projects" class="menu-icon">
                 </a>
             </div>
-            <div class="menu-item">
-                <a href="#social-networks">
-                    <img src="img/social-networks-icon.png" alt="Social Networks" class="menu-icon">
-                </a>
-            </div>
         </nav>
     </header>
+    <aside class="social-networks-nav">
+            <a href="https://www.instagram.com/aguscodev" target="_blank"><img src="img/instagram-icon.png" alt=""
+                    class="social-network-icon"></a>
+            <a href="http://www.linkedin.com/in/agust%C3%ADn-e-santillan" target="_blank"><img src="img/linkedin-icon.png" alt=""
+                    class="social-network-icon"></a>
+            <a href="https://github.com/santillanagus" target="_blank"><img src="img/github-icon.png" alt=""
+                    class="social-network-icon"></a>
+            <a href="https://discord.com/users/santillanagus" target="_blank"><img src="img/discord-icon.png" alt=""
+                    class="social-network-icon"></a>
+    </aside>
     <main>
         <section id="cover">
             <video muted loop autoplay="autoplay">
@@ -57,9 +64,10 @@
         <section id="me">
             <img src="img/foto-cv.jpg" alt="">
             <p>Hola, soy <strong class="p-italic-bold">Agustín</strong>, un desarrollador web de <strong
-                    class="p-italic-bold">21 años</strong> especializado en sitios web estáticos. Con un año de estudio y
+                    class="p-italic-bold">21 años</strong> especializado en sitios web estáticos. Con un año de estudio
+                y
                 un enfoque actual en <u class="p-italic-bold">JavaScript</u>, aporto simplicidad y eficiencia a mis
-                proyectos. A continuación puede explorar mi portafolio para ver mi dedicación y crecimiento en este
+                proyectos. A continuación podes explorar mi portafolio para ver mi dedicación y crecimiento en este
                 campo.
             </p>
             <button class="download-cv-button"><a href="">Descargar CV</a></button>
@@ -84,20 +92,18 @@
             </div>
         </section>
         <section id="projects">
-            <p>Projects:</p>
+            <p>Proyectos:</p>
             <div class="item-project">
                 <a href="https://keygoats.netlify.app/" target="_blank"><img src="img/keygoats-page.png"
                         alt="keygoats-page" class="projects-img"></a>
                 <a href="https://keygoats.netlify.app/" target="_blank">Keygoats Page</a>
             </div>
-            <div class="cover-arrow">
-                <a href="#social-networks" class="arrow"><img src="img/arrow-white.png" alt="" class="arrow"></a>
-            </div>
-        </section>
-        <section id="social-networks">
         </section>
     </main>
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
